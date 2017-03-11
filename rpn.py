@@ -4,6 +4,8 @@ import operator
 operateDict = {
     '+': operator.add,
     '-': operator.sub,
+    '^': operator.pow,
+    '*': operator.mul,
 }
 
 
