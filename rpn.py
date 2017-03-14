@@ -2,7 +2,6 @@
 import operator
 import readline
 import sys
-from termcolor import colored, cprint
 
 operateDict = {
     '+': operator.add,
@@ -32,7 +31,7 @@ def calculate(arg):
             value1 = stack.pop()
 
             #print colored output
-            print (colored(value1, 'red') , colored(operand, 'blue') , colored(value2, 'red'), colored('=', 'cyan'), )
+            # print (colored(value1, 'red') , colored(operand, 'blue') , colored(value2, 'red'), colored('=', 'cyan'), )
             result = operateDict[operand](value1,value2)
             stack.append(result)
             counter = 0

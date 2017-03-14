@@ -1,6 +1,4 @@
 language: python
 python:
   - "3.5"
-before_install:
-      sudo pip3 install termcolor
 script: python3 -m unittest
