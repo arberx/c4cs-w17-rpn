@@ -4,6 +4,7 @@ python:
 install:  
   - pip install python-coveralls  # Add me to install python-coveralls
 
-after_success:  
-  - coveralls                     # Add me to upload reports to coveralls.io
 script: python3 -m unittest
+
+after_success:  
+  - coveralls 
