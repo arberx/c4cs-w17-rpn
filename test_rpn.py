@@ -1,6 +1,5 @@
 import unittest
 import rpn
-from termcolor import colored, cprint
 
 class TestBasics(unittest.TestCase):
     def test_add(self):
